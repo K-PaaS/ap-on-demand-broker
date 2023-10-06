@@ -1,6 +1,6 @@
 package model;
 
-import org.openpaas.paasta.ondemand.model.DeploymentInstance;
+import org.openpaas.ondemand.model.DeploymentInstance;
 
 import java.util.HashMap;
 import java.util.Map;

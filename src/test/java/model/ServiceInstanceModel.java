@@ -1,6 +1,6 @@
 package model;
 
-import org.openpaas.paasta.ondemand.model.JpaServiceInstance;
+import org.openpaas.ondemand.model.JpaServiceInstance;
 import org.openpaas.servicebroker.model.ServiceInstance;
 
 public class ServiceInstanceModel {

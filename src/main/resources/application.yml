@@ -11,7 +11,7 @@ bosh:
 
 spring:
   application:
-    name: paas-ta-on-demand-broker
+    name: ap-ta-on-demand-broker
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver 
     url: "jdbc:mysql://localhost:3306/on-demand?autoReconnect=true&useUnicode=true&characterEncoding=utf8"
@@ -26,7 +26,7 @@ spring:
 serviceDefinition:
   id: 54e2de61-de84-4b9c-afc3-88d08aadfcb6
   name: redis
-  desc: "A paasta source control service for application development.provision parameters : parameters {owner : owner}"
+  desc: "A Application Platform source control service for application development.provision parameters : parameters {owner : owner}"
   bindable: true
   planupdatable: false
   bullet:
