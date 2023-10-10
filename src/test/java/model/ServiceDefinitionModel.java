@@ -32,10 +32,10 @@ public class ServiceDefinitionModel {
         Map<String, Object> sdMetadata = new HashMap<String, Object>();
         sdMetadata.put("displayName", "On-Demand Service");
         sdMetadata.put("imageUrl", "");
-        sdMetadata.put("longDescription", "Paas-TA On-Demand Service");
-        sdMetadata.put("providerDisplayName", "PaaS-TA");
-        sdMetadata.put("documentationUrl", "https://paas-ta.kr");
-        sdMetadata.put("supportUrl", "https://paas-ta.kr");
+        sdMetadata.put("longDescription", "Application Platform On-Demand Service");
+        sdMetadata.put("providerDisplayName", "K-PaaS");
+        sdMetadata.put("documentationUrl", "https://k-paas.or.kr");
+        sdMetadata.put("supportUrl", "https://k-paas.or.kr");
         return sdMetadata;
     }
 
